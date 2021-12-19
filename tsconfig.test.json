@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "es2018",
     "module": "commonjs",
     "outDir": "./lib",
     "rootDir": "./src",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "declaration": true
   },
+  "exclude": [
+    "lib"
+  ],
   "include": [
     "test"
   ]
