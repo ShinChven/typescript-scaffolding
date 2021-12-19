@@ -9,6 +9,8 @@
     "declaration": true
   },
   "exclude": [
-    "test"
+    "test",
+    "node_modules",
+    "lib"
   ]
 }
