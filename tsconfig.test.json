@@ -8,10 +8,9 @@
     "esModuleInterop": true,
     "declaration": true
   },
-  "exclude": [
-    "lib"
-  ],
   "include": [
+    "src",
     "test"
-  ]
+  ],
+  "exclude": ["lib"]
 }
