@@ -25,7 +25,7 @@ git clone https://github.com/ShinChven/typescript-scaffolding.git "$PROJECT_NAME
 cd "$PROJECT_NAME" || exit 1 # Exit if cd fails
 
 # Remove the .git directory
-rm -rf .git ts-init.sh
+rm -rf .git ts-init.sh README.MD
 
 # Modify package.json using jq
 # Create a temporary file for jq output
