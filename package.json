@@ -19,11 +19,11 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@types/mocha": "^10.0.6",
-    "mocha": "^10.3.0",
-    "ts-mocha": "^10.0.0",
-    "@types/node": "^20.11.30",
-    "shx": "^0.3.4",
-    "typescript": "^5.4.3"
+    "@types/mocha": "^10.0.10",
+    "mocha": "^11.1.0",
+    "ts-mocha": "^11.1.0",
+    "@types/node": "^22.14.0",
+    "shx": "^0.4.0",
+    "typescript": "^5.8.3"
   }
 }
