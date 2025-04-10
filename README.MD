@@ -2,6 +2,13 @@
 
 > A simple scaffolding tool for creating new TypeScript projects.
 
+## Prerequisites
+
+-   **jq**: This script uses `jq` to modify the `package.json` file. Please ensure it's installed.
+    -   macOS (using Homebrew): `brew install jq`
+    -   Debian/Ubuntu: `sudo apt-get update && sudo apt-get install jq`
+    -   Other systems: Check the [jq installation guide](https://stedolan.github.io/jq/download/).
+
 ## install cli script
 
 ```bash
